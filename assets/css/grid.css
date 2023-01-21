@@ -1,0 +1,105 @@
+@media (max-width: 349.99px) {
+  .header_logo {
+    width: 100% !important;
+    height: 30px;
+  }
+  .menu_container {
+    text-align: center;
+  }
+  .dropdown-content {
+    position: static;
+    display: none;
+    z-index: 1;
+    border: 1px solid rgba(128, 128, 128, 0.201);
+    background-color: white;
+    padding: 10px;
+    flex-direction: column;
+    width: 100% !important;
+    margin: auto;
+    text-align: center !important;
+  }
+
+  .dropdown-content a {
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 575.98px) {
+  .header_logo {
+    width: 270px !important;
+    height: 35px;
+  }
+  .menu {
+    width: 100%;
+    justify-content: space-around !important;
+    margin-top: 25px;
+    text-align: center !important;
+  }
+  .dropdown-content {
+    position: static;
+    display: none;
+    z-index: 1;
+    border: 1px solid rgba(128, 128, 128, 0.201);
+    background-color: white;
+    padding: 10px;
+    flex-direction: column;
+    width: 50% !important;
+    margin: auto;
+    text-align: center !important;
+  }
+
+  .dropdown-content a {
+    text-align: center !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 991.99px) {
+  .header_logo {
+    width: 400px;
+    height: 65px;
+  }
+  .register {
+    border: none;
+  }
+  .menu {
+    width: 100%;
+    justify-content: space-around !important;
+    margin-top: 25px;
+    text-align: center !important;
+  }
+  .dropdown-content {
+    position: static;
+    display: none;
+    width: 410px;
+    z-index: 1;
+    border: 1px solid rgba(128, 128, 128, 0.201);
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 991.99px) {
+  .header_logo {
+    width: 400px;
+    height: 65px;
+  }
+  .register {
+    border: none;
+  }
+  .ul_account {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-right: 0px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.122);
+    padding-bottom: 10px;
+    margin-bottom: 20px !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+  .header_logo {
+    width: 400px;
+    height: 65px;
+  }
+}

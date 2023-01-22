@@ -22,6 +22,33 @@
   .dropdown-content a {
     text-align: center !important;
   }
+  .banner_logo {
+    width: 100%;
+  }
+  .banner-container {
+    left: 35%;
+  }
+  .beauty_container {
+    display: none !important;
+  }
+
+  .card_img {
+    width: 100%;
+  }
+  .overlay {
+    width: 93%;
+    height: 100%;
+  }
+  .card_text {
+    top: 120px;
+  }
+  .card_title {
+    font-size: 25px;
+  }
+
+  .gapse {
+    flex-wrap: wrap;
+  }
 }
 
 @media (min-width: 350px) and (max-width: 575.98px) {
@@ -51,6 +78,27 @@
   .dropdown-content a {
     text-align: center !important;
   }
+
+  .banner_logo {
+    width: 220px;
+  }
+  .banner-container {
+    left: 35%;
+  }
+
+  .card_img {
+    width: 100%;
+  }
+  .overlay {
+    width: 95%;
+    height: 100%;
+  }
+  .card_text {
+    top: 250px;
+  }
+  .card_title {
+    font-size: 35px;
+  }
 }
 @media (min-width: 576px) and (max-width: 991.99px) {
   .header_logo {
@@ -75,6 +123,25 @@
     background-color: white;
     padding: 10px;
     margin: auto;
+  }
+  .banner_logo {
+    width: 380px;
+  }
+  .banner-container {
+    left: 35%;
+  }
+  .card_img {
+    width: 100%;
+  }
+  .overlay {
+    width: 96%;
+    height: 100%;
+  }
+  .card_text {
+    top: 130px;
+  }
+  .card_title {
+    font-size: 30px;
   }
 }
 
@@ -101,5 +168,56 @@
   .header_logo {
     width: 400px;
     height: 65px;
+  }
+  .banner_logo {
+    width: 500px;
+  }
+
+  .card_img {
+    width: 100%;
+  }
+  .overlay {
+    width: 93%;
+    height: 100%;
+  }
+  .card_text {
+    top: 130px;
+  }
+
+  .card_title {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1580.99px) {
+  .banner-container {
+    top: 36%;
+    left: 30%;
+  }
+  .card_title {
+    font-size: 35px;
+  }
+  .card_img {
+    width: 100%;
+  }
+  .overlay {
+    width: 95%;
+    height: 100%;
+  }
+  .card_text {
+    top: 170px;
+  }
+}
+
+@media (min-width: 1581px) and (max-width: 1850.99px) {
+  .card_img {
+    width: 100%;
+  }
+  .overlay {
+    width: 95%;
+    height: 100%;
+  }
+  .card_text {
+    top: 170px;
   }
 }

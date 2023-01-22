@@ -40,7 +40,7 @@ ul {
   margin-right: 60px;
 }
 .menu li a {
-  font-family: Work Sans;
+  font-family: "Work Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
@@ -62,7 +62,6 @@ ul {
   display: none;
   width: 410px;
   z-index: 1;
-  border: 1px solid rgba(128, 128, 128, 0.201);
   background-color: white;
   padding: 10px;
 }
@@ -86,9 +85,102 @@ ul {
 }
 
 .dropdown-content a {
-  font-family: "Work Sans";
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 40px;
+}
+
+.banner-container {
+  top: 36%;
+  left: 50%;
+}
+.beauty {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.07em;
+  color: white;
+  text-transform: uppercase;
+}
+
+.shopping {
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: bolder;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  color: black;
+  text-transform: uppercase;
+}
+
+.shopping-container {
+  background-color: #e0ff04;
+}
+.line {
+  border: 3px solid #e0ff04;
+}
+
+.new {
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background-color: white;
+  top: 20.5px;
+}
+.slid {
+  border: 2px solid red;
+  height: 600px;
+}
+
+.card_title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  color: white;
+}
+.card_subtitle {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.card_text {
+  top: 270px;
+}
+.card_sub {
+  border-bottom: 2px solid white;
+}
+
+.overlay {
+  top: 0;
+  width: 532px;
+  height: 532px;
+  background-color: rgba(0, 0, 0, 0.252);
+}
+.gaps {
+  row-gap: 20px;
+  flex-wrap: wrap;
+}
+.card_text:hover .overlay {
+  background-color: #e0ff04 !important;
+}
+
+.card_text:hover {
+  cursor: pointer;
+}
+.carde:hover .overlay {
+  background-color: rgba(224, 255, 4, 0.8);
 }

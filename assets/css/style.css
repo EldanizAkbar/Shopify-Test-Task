@@ -184,3 +184,24 @@ ul {
 .carde:hover .overlay {
   background-color: rgba(224, 255, 4, 0.8);
 }
+
+.row_gap {
+  row-gap: 20px;
+}
+.en {
+  width: auto !important;
+}
+
+.kiosk {
+  font-family: "Work Sans", sans-serif;
+  font-size: 47px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0em;
+  color: black;
+  margin-bottom: 0;
+}
+.kiosk_container {
+  background-color: #e0ff04;
+  width: auto !important;
+}

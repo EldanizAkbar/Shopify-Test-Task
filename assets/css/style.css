@@ -78,7 +78,6 @@ ul {
 .dropdown-content a:hover {
   border-bottom: 2px solid yellow;
 }
-
 .dropdown:hover .dropdown-content {
   display: flex !important;
   justify-content: center !important;
@@ -181,9 +180,16 @@ ul {
 .card_text:hover {
   cursor: pointer;
 }
-.carde:hover .overlay {
-  background-color: rgba(224, 255, 4, 0.8);
+.overlay{
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+  -o-transition: all 2s ease-out;
+  transition: all 0.2s ease-out;
 }
+.carde:hover .overlay {
+  background-color: rgba(226, 255, 4, 0.704);
+}
+
 
 .row_gap {
   row-gap: 20px;
@@ -204,4 +210,50 @@ ul {
 .kiosk_container {
   background-color: #e0ff04;
   width: auto !important;
+}
+.bg-color {
+  background-color: #e0ff04;
+}
+
+.footer-menu {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  flex-direction: row;
+}
+
+.form-label {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.07em;
+}
+.footer_int {
+  border: none;
+  border-radius: 0;
+  padding: 10px;
+  margin-top: 8px;
+}
+.form-check-label {
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.07em;
+  text-align: left;
+}
+.btn {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+}
+.form-check-input{
+  border: none;
+  border-radius: 0 !important;
 }

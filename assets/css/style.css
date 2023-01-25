@@ -257,3 +257,68 @@ ul {
   border: none;
   border-radius: 0 !important;
 }
+
+
+.name {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #000000;
+  margin-bottom: 5px; }
+
+.marka {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 5px;
+  color: #999999; }
+
+.cost {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 5px;
+  color: #000000; }
+
+.shop {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 0;
+  border-bottom: 1px solid #E0FF04;
+  cursor: pointer; }
+
+.heart {
+  border: 1px solid rgba(112, 112, 112, 1)}
+
+.icon {
+  text-align: right !important;
+  width: auto; 
+ }
+  .img_container{
+    width: auto;
+    height: 380px;
+  }
+
+.hover_img{
+  display: none;
+}
+.icon:hover img{
+  display: none;
+  cursor: pointer; 
+ 
+}
+.icon:hover .hover_img{
+  display: inline;
+}
